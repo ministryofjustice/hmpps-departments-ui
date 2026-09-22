@@ -18,7 +18,7 @@ const logLevel = process.env.LOG_LEVEL?.toLowerCase().trim() || 'info'
 validateLogLevel(logLevel)
 
 const logger = bunyan.createLogger({
-  name: 'HMPPS Typescript Template',
+  name: 'HMPPS Departments Ui',
   stream: formatOut,
   level: logLevel,
 })

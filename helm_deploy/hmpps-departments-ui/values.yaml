@@ -1,6 +1,6 @@
 generic-service:
   nameOverride: hmpps-departments-ui
-  productId: 'DPS097' # productId for the product that this belongs too, i.e. DPS001, see README.md for details
+  productId: 'DPS144' # productId for the product that this belongs too, i.e. DPS001, see README.md for details
 
   # the IRSA service account name for accessing AWS resources (e.g: audit SQS queue)
   # serviceAccountName: "hmpps-departments-ui"
